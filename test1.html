@@ -1,0 +1,72 @@
+
+
+<html>
+<head>
+<title>protected page: plese enter password</title>
+<form name="redirect">
+<center>
+<font face="Arial"><b>You will be redirected to the script in<br><br>
+<form>
+<input type="text" size="3" name="redirect2">
+</form>
+seconds</b></font>
+</center>
+
+<style type="text/css">
+
+#dropdownpanel{ 
+position: absolute;
+width: 100%;
+left: 0;
+top: 0;
+visibility:hidden;
+}
+
+#dropdownpanel .contentdiv{ 
+background: black;
+color: white;
+padding: 10px;
+}
+
+#dropdownpanel .control{ 
+border-top: 5px solid black;
+color: white;
+font-weight: bold;
+text-align: center;
+background: transparent url("panel.gif") center center no-repeat; 
+padding-bottom: 3px; 
+height: 21px; 
+line-height: 21px; 
+}
+
+</style>
+
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password','');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "saibunny6950") {
+alert('Welcome To Our Page!');
+window.open('1startup.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter into the page" onClick="passWord()">
+</FORM>
+</CENTER>
+</head>
+<body><WELCOME></body>
+</html>

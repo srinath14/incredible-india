@@ -1,0 +1,21 @@
+p 
+{ 
+background-image: url(white.jpg);font-size: 20;color:black;width:80%;    
+}
+h1
+ {   
+background-image: url(image/blue.jpg);font-size: 50;color: white;font-family: Edwardian Script ITC
+}
+body 
+{   
+background-image: url(tri.jpg);background-size:100% 100%; background-attachment: fixed
+
+}
+li
+{ 
+background-image: url(white.jpg);font-size: 20;color:black;width:80%;    
+}
+h2 
+{    
+background-image: url(image/blue.jpg);font-size: 30;color: white;font-family: Edwardian Script ITC
+}
